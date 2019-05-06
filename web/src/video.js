@@ -6,6 +6,7 @@ var is_Firefox = /firefox/i.test(navigator.userAgent);
 var webcam;
 var canvas;
 var context;
+var imageByte64;
 
 function init(){
     var goEventSelector = document.getElementById("btn_go");
@@ -64,7 +65,7 @@ function handleControls(i){
 }
 
 function postImage(){
-    var imageByte64 = canvas.toDataURL();
+    imageByte64 = canvas.toDataURL();
     console.log(imageByte64); //string
     
 }
