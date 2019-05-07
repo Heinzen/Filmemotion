@@ -66,7 +66,7 @@ function handleControls(i){
 
 function postImage(){
     imageByte64 = canvas.toDataURL();
-    console.log(imageByte64); //string
+    processImage();
     
 }
 

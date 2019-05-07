@@ -6,18 +6,25 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/button.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="src/video.js"></script>
+    <script src="src/endpoint.js"></script>
 </head>
 
 <body>
     <div class="mainContainer">
+        <div class="posterContainer">
+            
+        </div>
         <div class="videoPlayer">
             <video id="webcam" autoplay></video>
             <canvas id="canvas"></canvas>
         </div>
         <div class="control">
             <button class="thar-one" id="btn_snap" >Capture</button>
-            <button class="thar-one" id="btn_go" disabled>Save</button>
+            <button class="thar-one" id="btn_go" disabled>Process</button>
         </div>
+        <textarea id="responseTextArea" class="UIInput"
+                style="margin-top:50px; width:580px; height:400px;"></textarea>
     </div>
 </body>
