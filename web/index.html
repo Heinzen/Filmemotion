@@ -9,20 +9,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="src/video.js"></script>
     <script src="src/endpoint.js"></script>
+    <script src="src/posterhandler.js"></script>
+    <script src="media/posters.js"></script>
 </head>
 
 <body>
     <div class="mainContainer">
-        <div class="posterContainer">
-            <img class="poster" src="media/poster.jpg">
+        <div id="posterContainer" draggable="true" class="container">
+            
         </div>
-        <div class="videoPlayer">
+        <div class="videoPlayer container">
             <video id="webcam" autoplay></video>
             <canvas id="canvas"></canvas>
         </div>
         <div class="control">
             <button class="thar-one" id="btn_snap" >Capture</button>
             <button class="thar-one" id="btn_go" disabled>Process</button>
+            <button class="thar-one" onclick="createPoster()" id="btn_poster"> Poster</button>
         </div>
         <textarea id="responseTextArea" class="UIInput"
                 style="margin-top:50px; width:580px; height:400px;"></textarea>

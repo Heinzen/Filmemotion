@@ -12,7 +12,7 @@ body {
 	height: 100%;
 }
 
-.videoPlayer{
+.container{
 	display: inline-block;
 	line-height: 0;
 	margin: 0 auto;
@@ -26,6 +26,12 @@ body {
     background-color: #666;
 }
 
+#posterContainer{
+	height:300px;
+	width:220px;
+	overflow: auto;
+}
+
 #canvas{
 	display: none;
 	position: absolute;
@@ -33,14 +39,16 @@ body {
 	left: 0px;
 }
 
-.posterContainer{
-	border: 3px #fff solid;
-}
-
 .poster{
 	position: relative;
 	margin-top: 2%;
-	margin-left: 2%;
+	margin-left: 3px;
 	width: 200px;
+	opacity: 1;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.poster[enabled="false"]{
+	opacity: 0.3;
 }
 	
