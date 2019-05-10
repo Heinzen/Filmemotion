@@ -1,6 +1,6 @@
 function processImage() {
     
-    var APIkey = "";
+    var APIkey = "9e180b11df9049ff968eb3371ca0d51c";
     var uriBase = "https://brazilsouth.api.cognitive.microsoft.com/face/v1.0/detect";
     var params = {
         "returnFaceId": "true",
