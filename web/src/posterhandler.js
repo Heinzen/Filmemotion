@@ -1,26 +1,40 @@
 var posterArray = [];
 
-function Poster(imgURL) {
-    this.id = posterArray.length;
+function initTopMovies() {
+    console.log("Initializing top movies");
+    sendSocketMessage(JSON.stringify(getTopMoviesRequest));
+}
+
+function Poster(imgURL, ID, title) {
     this.state = false;
-    this.imgURL = posters[this.id];
+    this.id = ID;
+    this.imgURL = imgURL;
+    this.title = title;
     this.append = function(){
         $("#posterContainer").append('<img src="'+this.imgURL+'" posterId="'+this.id+'" enabled=true class="poster" onClick="handlePosterClick(event)"/>');
     }
  }
 
-
 function createPoster() {
-    var poster = new Poster("media/poster.jpg");
-    poster.append();
-    posterArray.push(poster);
+    for(var i = 1; i < jsonData.length; i++){
+        var poster = new Poster(jsonData[i].URL, jsonData[i].ID, jsonData[i].Title);
+        poster.append();
+        posterArray.push(poster);
+    }
 }
 
-
+function search(id){
+    for (var i=0; i < posterArray.length; i++) {
+        if (posterArray[i].id == id) {
+            return i;
+        }
+    }
+}
 
 function handlePosterClick(e) { 
-    posterArray[e.currentTarget.getAttribute("posterId")].state = !posterArray[e.currentTarget.getAttribute("posterId")].state;
-    var htmlElement = document.querySelector('[posterId="'+posterArray[e.currentTarget.getAttribute("posterId")].id+'"');
+    var indexOfClicked = search(e.currentTarget.getAttribute("posterId"));
+    posterArray[indexOfClicked].state = !posterArray[indexOfClicked].state;
+    var htmlElement = document.querySelector('[posterId="'+posterArray[indexOfClicked].id+'"');
     if(htmlElement.getAttribute("enabled") == "true") {
         console.log("Is enabled, disabling");
         htmlElement.setAttribute("enabled", "false");
@@ -30,6 +44,4 @@ function handlePosterClick(e) {
     }
 }
 
-window.onclick = e => {
-    
-} 
+window.onclick = e => {} 

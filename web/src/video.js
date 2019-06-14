@@ -12,12 +12,14 @@ function init(){
     var goEventSelector = document.getElementById("btn_go");
     var snapEventSelector = document.getElementById("btn_snap");
     
+    
     canvas = document.getElementById("canvas");
     context = canvas.getContext("2d");
     canvas.style.width = videoWidth + "px";
     
     goEventSelector.addEventListener('click', postImage, false);
     snapEventSelector.addEventListener('click', captureImage, false);
+    
     snapEventSelector.context = context;
     startWebcam();
 }

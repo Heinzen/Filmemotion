@@ -10,13 +10,13 @@
     <script src="src/video.js"></script>
     <script src="src/endpoint.js"></script>
     <script src="src/posterhandler.js"></script>
-    <script src="media/posters.js"></script>
+    <script src="src/sockethandler.js"></script>
+    <script src="src/transactionhandler.js"></script>
 </head>
 
 <body>
     <div class="mainContainer">
         <div id="posterContainer" draggable="true" class="container">
-            
         </div>
         <div class="videoPlayer container">
             <video id="webcam" autoplay></video>
@@ -25,7 +25,8 @@
         <div class="control">
             <button class="thar-one" id="btn_snap" >Capture</button>
             <button class="thar-one" id="btn_go" disabled>Process</button>
-            <button class="thar-one" onclick="createPoster()" id="btn_poster"> Poster</button>
+            <button class="thar-one" id="btn_emotion">Parse Emotions</button>
+            <button class="thar-one" onclick="disconnectWebSocket()">Stop Websocket</button>
         </div>
         <textarea id="responseTextArea" class="UIInput"
                 style="margin-top:50px; width:580px; height:400px;"></textarea>

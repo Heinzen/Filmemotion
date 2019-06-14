@@ -8,5 +8,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="postgresql-42.2.5" level="project" />
+    <orderEntry type="library" name="tyrus-standalone-client-1.9" level="project" />
+    <orderEntry type="library" name="Java-WebSocket-1.4.0-with-dependencies" level="project" />
+    <orderEntry type="library" name="org.json" level="project" />
   </component>
 </module>
