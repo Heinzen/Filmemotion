@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66dcfbd0-cf96-43d8-8f87-9b21d264e78f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../postgresql-42.2.5.jar" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/rodrigo_esteves.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dataset/moviedata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Dataset/moviedata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/backend/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/backend/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/backend/EmotionEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/backend/EmotionEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/backend/META-INF/backend.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/backend/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/backend/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/backend/MessageParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/backend/MessageParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/backend/MovieFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/backend/MovieFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/backend/SocketEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/backend/SocketEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/moviedata.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/moviedata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmotionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmotionEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessageParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MovieFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovieFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SocketEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/emotionhandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/emotionhandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/endpoint.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/endpoint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/posterhandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/posterhandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/sockethandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/sockethandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/transactionhandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/transactionhandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web/style/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,87 +41,136 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#63#64#0" expanded="true" />
-                    <element signature="e#85#86#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Context.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/MovieFactory.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="243">
-                  <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/EmotionEngine.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/SocketEndpoint.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#483#484#0" expanded="true" />
-                    <element signature="e#529#530#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/MessageParser.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#85#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#EMOTION#0;class#Context#0" />
+                <element signature="class#GENRE#0;class#Context#0" />
+                <element signature="method#Context#0;class#Context#0" />
+                <element signature="method#getMovieById#0;class#Context#0" />
+                <element signature="method#buildMovieObjectData#0;class#Context#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UserParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#UserParser#0;class#UserParser#0" />
+                <element signature="method#parseUserData#0;class#UserParser#0" />
+                <element signature="method#updateUserIdInFile#0;class#UserParser#0" />
+                <element signature="method#updateCoefficient#0;class#UserParser#0" />
+                <element signature="method#parseFaceAttributes#0;class#UserParser#0" />
+                <element signature="method#buildUserDataForMood#0;class#UserParser#0" />
+                <element signature="method#rejectGenre#0;class#UserParser#0" />
+                <element signature="method#acceptGenre#0;class#UserParser#0" />
+                <element signature="method#updateJsonRecord#0;class#UserParser#0" />
+                <element signature="method#isColdStart#0;class#UserParser#0" />
+                <element signature="method#getGenreForAcceptance#0;class#UserParser#0" />
+                <element signature="method#updateContentWeight#0;class#UserParser#0" />
+                <element signature="method#selectContent#0;class#UserParser#0" />
+                <element signature="method#buildOutputMovieJson#0;class#UserParser#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EmotionEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding>
+                <element signature="method#EmotionEngine#0;class#EmotionEngine#0" />
+                <element signature="method#buildGenreWeighting#0;class#EmotionEngine#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MessageParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#parseParameters#0;class#MessageParser#0" />
+                <element signature="method#handleFunctionCalls#0;class#MessageParser#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+              <folding>
+                <element signature="method#Movie#0;class#Movie#0" />
+                <element signature="method#toString#0;class#Movie#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MovieFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#MovieFactory#0;class#MovieFactory#0" />
+                <element signature="method#buildAllPosters#0;class#MovieFactory#0" />
+                <element signature="method#buildTopMovies#0;class#MovieFactory#0" />
+                <element signature="method#getMoviePosters#0;class#MovieFactory#0" />
+                <element signature="method#getTopMovies#0;class#MovieFactory#0" />
+                <element signature="method#getAllGenres#0;class#MovieFactory#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SocketEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,6 +178,18 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>r</find>
+      <find>shaun</find>
+      <find>Setting up emotion mapping...</find>
+      <find>&quot;USERID&quot;</find>
+      <find>rejectGenre</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -120,21 +207,23 @@
         <option value="$PROJECT_DIR$/src/SocketEndPoint.java" />
         <option value="$PROJECT_DIR$/src/ResponseFactory.java" />
         <option value="$PROJECT_DIR$/src/Response.java" />
-        <option value="$PROJECT_DIR$/src/SocketEndpoint.java" />
         <option value="$PROJECT_DIR$/src/PosterFactory.java" />
-        <option value="$PROJECT_DIR$/src/Context.java" />
-        <option value="$PROJECT_DIR$/src/MessageParser.java" />
-        <option value="$PROJECT_DIR$/src/MovieFactory.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Movie.java" />
+        <option value="$PROJECT_DIR$/src/SocketEndpoint.java" />
         <option value="$PROJECT_DIR$/src/EmotionEngine.java" />
+        <option value="$PROJECT_DIR$/src/MessageParser.java" />
+        <option value="$PROJECT_DIR$/src/Context.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/UserParser.java" />
+        <option value="$PROJECT_DIR$/src/MovieFactory.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
-    <option name="y" value="23" />
-    <option name="width" value="1402" />
-    <option name="height" value="877" />
+    <option name="x" value="-267" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -159,6 +248,11 @@
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dependencies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
@@ -266,27 +360,36 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1402" height="877" extended-state="0" />
+    <frame x="-267" y="-1057" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1757353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10383387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="DB Browser" order="5" weight="0.2206642" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24585988" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3316062" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32866243" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22176166" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32953367" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3284974" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32611465" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -328,13 +431,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -407,29 +503,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MessageParser.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        <state relative-caret-position="167">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/dependencies/org.json.jar!/org/json/JSONTokener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Context.java">
+    <entry file="file://$PROJECT_DIR$/resources/12346.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/moviedata.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="307">
+          <caret line="1531" column="25" lean-forward="true" selection-start-line="1531" selection-start-column="25" selection-end-line="1531" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/dependencies/org.json.jar!/org/json/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="398" selection-start-line="398" selection-end-line="398" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/dependencies/Java-WebSocket-1.4.0-with-dependencies.jar!/org/java_websocket/drafts/Draft_6455.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="720" column="17" selection-start-line="720" selection-start-column="17" selection-end-line="720" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/dependencies/Java-WebSocket-1.4.0-with-dependencies.jar!/org/java_websocket/server/WebSocketServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="486" selection-start-line="486" selection-end-line="486" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#17290#17291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/dependencies/org.json.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#2349#2350#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="e#63#64#0" expanded="true" />
             <element signature="e#85#86#0" expanded="true" />
@@ -437,31 +575,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MovieFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/MessageParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        <state relative-caret-position="150">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#parseParameters#0;class#MessageParser#0" />
+            <element signature="method#handleFunctionCalls#0;class#MessageParser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SocketEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MovieFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MovieFactory#0;class#MovieFactory#0" />
+            <element signature="method#buildAllPosters#0;class#MovieFactory#0" />
+            <element signature="method#buildTopMovies#0;class#MovieFactory#0" />
+            <element signature="method#getMoviePosters#0;class#MovieFactory#0" />
+            <element signature="method#getTopMovies#0;class#MovieFactory#0" />
+            <element signature="method#getAllGenres#0;class#MovieFactory#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <element signature="method#Movie#0;class#Movie#0" />
+            <element signature="method#toString#0;class#Movie#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EmotionEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        <state relative-caret-position="180">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="method#EmotionEngine#0;class#EmotionEngine#0" />
+            <element signature="method#buildGenreWeighting#0;class#EmotionEngine#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/src/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="362">
+          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
+            <element signature="class#EMOTION#0;class#Context#0" />
+            <element signature="class#GENRE#0;class#Context#0" />
+            <element signature="method#Context#0;class#Context#0" />
+            <element signature="method#getMovieById#0;class#Context#0" />
+            <element signature="method#buildMovieObjectData#0;class#Context#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#UserParser#0;class#UserParser#0" />
+            <element signature="method#parseUserData#0;class#UserParser#0" />
+            <element signature="method#updateUserIdInFile#0;class#UserParser#0" />
+            <element signature="method#updateCoefficient#0;class#UserParser#0" />
+            <element signature="method#parseFaceAttributes#0;class#UserParser#0" />
+            <element signature="method#buildUserDataForMood#0;class#UserParser#0" />
+            <element signature="method#rejectGenre#0;class#UserParser#0" />
+            <element signature="method#acceptGenre#0;class#UserParser#0" />
+            <element signature="method#updateJsonRecord#0;class#UserParser#0" />
+            <element signature="method#isColdStart#0;class#UserParser#0" />
+            <element signature="method#getGenreForAcceptance#0;class#UserParser#0" />
+            <element signature="method#updateContentWeight#0;class#UserParser#0" />
+            <element signature="method#selectContent#0;class#UserParser#0" />
+            <element signature="method#buildOutputMovieJson#0;class#UserParser#0" />
           </folding>
         </state>
       </provider>
@@ -527,7 +737,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.json</last-edited>
+          <last-edited>Java-WebSocket-1.4.0-with-dependencies</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

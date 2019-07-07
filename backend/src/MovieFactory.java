@@ -1,7 +1,7 @@
 import org.json.JSONArray;
-
 import org.json.JSONObject;
 import org.json.JSONTokener;
+import java.util.Vector;
 
 public final class MovieFactory {
     public MovieFactory(){
@@ -11,11 +11,12 @@ public final class MovieFactory {
 
     private static JSONArray moviePosters;
     private static JSONArray topMovies;
+    private static Vector<String> allGenres;
 
 
     private static void buildAllPosters(){
         try{
-            JSONTokener tokener = new JSONTokener(Context.getMovieData());
+            JSONTokener tokener = new JSONTokener(Context.getRawMovieData());
             JSONArray array = (JSONArray) tokener.nextValue();
 
             JSONObject key = new JSONObject();
@@ -33,10 +34,9 @@ public final class MovieFactory {
             }
         }catch(Exception e){ System.out.println("Failed to parse JSON: "+e); }
     }
-
     private static void buildTopMovies() {
         try{
-            JSONTokener tokener = new JSONTokener(Context.getMovieData());
+            JSONTokener tokener = new JSONTokener(Context.getRawMovieData());
             JSONArray array = (JSONArray) tokener.nextValue();
 
             JSONObject key = new JSONObject();
@@ -56,18 +56,35 @@ public final class MovieFactory {
             }
         }catch(Exception e){ System.out.println("Failed to parse JSON: "+e); }
     }
-
     public static JSONArray getMoviePosters(){
         if(moviePosters.length() == 0){ buildAllPosters(); }
 
         return moviePosters;
     }
-
     public static JSONArray getTopMovies(){
         if(topMovies.length() == 0){ buildTopMovies(); }
-
         return topMovies;
     }
-}
+    public static void getAllGenres(){
+        try{
+            JSONTokener tokener = new JSONTokener(Context.getRawMovieData());
+            JSONArray array = (JSONArray) tokener.nextValue();
 
-//System.out.println("Current Movie: "+current.get("ID").toString()+" "+current.get("Title").toString());
+            allGenres = new Vector<>();
+
+            for(int index = 0; index < array.length(); index++){
+                JSONObject current = (JSONObject) array.get(index);
+                if(!allGenres.contains(current.get("MainGenre").toString()))
+                    allGenres.add(current.get("MainGenre").toString());
+                if(!allGenres.contains(current.get("SubGenre1").toString()))
+                    allGenres.add(current.get("SubGenre1").toString());
+                if(!allGenres.contains(current.get("SubGenre2").toString()))
+                    allGenres.add(current.get("SubGenre2").toString());
+            }
+
+            for(String s : allGenres){
+                System.out.println(s);
+            }
+        }catch(Exception e){ System.out.println("Failed to parse JSON: "+e); }
+    }
+}

@@ -85,8 +85,8 @@
     "imdb": 7.9,
     "MetaCritic": 94,
     "TotalVotes": "76,121",
-    "MainGenre": "Drama",
-    "SubGenre1": "Romance",
+    "MainGenre": "Romance",
+    "SubGenre1": "Drama",
     "SubGenre2": "",
     "Runtime": "127 min"
   },
@@ -111,8 +111,8 @@
     "imdb": 8.1,
     "MetaCritic": 93,
     "TotalVotes": "279,211",
-    "MainGenre": "Crime",
-    "SubGenre1": "Drama",
+    "MainGenre": "Drama",
+    "SubGenre1": "Crime",
     "SubGenre2": "History",
     "Runtime": "128 min"
   },
@@ -189,8 +189,8 @@
     "imdb": 8,
     "MetaCritic": 88,
     "TotalVotes": "540,24",
-    "MainGenre": "Biography",
-    "SubGenre1": "Drama",
+    "MainGenre": "Drama",
+    "SubGenre1": "Biography",
     "SubGenre2": "",
     "Runtime": "118 min"
   },
@@ -202,8 +202,8 @@
     "imdb": 8.1,
     "MetaCritic": 88,
     "TotalVotes": "541,526",
-    "MainGenre": "Adventure",
-    "SubGenre1": "Comedy",
+    "MainGenre": "Comedy",
+    "SubGenre1": "Adventure",
     "SubGenre2": "Drama",
     "Runtime": "99 min"
   },
@@ -228,8 +228,8 @@
     "imdb": 7.7,
     "MetaCritic": 88,
     "TotalVotes": "125,026",
-    "MainGenre": "Crime",
-    "SubGenre1": "Drama",
+    "MainGenre": "Drama",
+    "SubGenre1": "Crime",
     "SubGenre2": "Thriller",
     "Runtime": "102 min"
   },
@@ -254,8 +254,8 @@
     "imdb": 7.6,
     "MetaCritic": 87,
     "TotalVotes": "300,199",
-    "MainGenre": "Biography",
-    "SubGenre1": "Drama",
+    "MainGenre": "Drama",
+    "SubGenre1": "Biography",
     "SubGenre2": "Sport",
     "Runtime": "133 min"
   },
@@ -280,8 +280,8 @@
     "imdb": 7.7,
     "MetaCritic": 86,
     "TotalVotes": "97,059",
-    "MainGenre": "Adventure",
-    "SubGenre1": "Comedy",
+    "MainGenre": "Comedy",
+    "SubGenre1": "Adventure",
     "SubGenre2": "Drama",
     "Runtime": "115 min"
   },
@@ -293,8 +293,8 @@
     "imdb": 8,
     "MetaCritic": 84,
     "TotalVotes": "357,641",
-    "MainGenre": "Biography",
-    "SubGenre1": "Drama",
+    "MainGenre": "Drama",
+    "SubGenre1": "Biography",
     "SubGenre2": "",
     "Runtime": "117 min"
   },
@@ -319,8 +319,8 @@
     "imdb": 7.8,
     "MetaCritic": 84,
     "TotalVotes": "258,231",
-    "MainGenre": "Adventure",
-    "SubGenre1": "Comedy",
+    "MainGenre": "Comedy",
+    "SubGenre1": "Adventure",
     "SubGenre2": "Drama",
     "Runtime": "94 min"
   },
@@ -332,8 +332,8 @@
     "imdb": 7.5,
     "MetaCritic": 83,
     "TotalVotes": "261,953",
-    "MainGenre": "Adventure",
-    "SubGenre1": "Drama",
+    "MainGenre": "Drama",
+    "SubGenre1": "Adventure",
     "SubGenre2": "Family",
     "Runtime": "126 min"
   },
@@ -384,9 +384,9 @@
     "imdb": 7.6,
     "MetaCritic": 82,
     "TotalVotes": "297,075",
-    "MainGenre": "Adventure",
+    "MainGenre": "Drama",
     "SubGenre1": "Biography",
-    "SubGenre2": "Drama",
+    "SubGenre2": "Adventure",
     "Runtime": "94 min"
   },
   {
@@ -527,8 +527,8 @@
     "imdb": 7.8,
     "MetaCritic": 81,
     "TotalVotes": "254,317",
-    "MainGenre": "Biography",
-    "SubGenre1": "Comedy",
+    "MainGenre": "Comedy",
+    "SubGenre1": "Biography",
     "SubGenre2": "Drama",
     "Runtime": "130 min"
   },
@@ -540,8 +540,8 @@
     "imdb": 7.9,
     "MetaCritic": 81,
     "TotalVotes": "56,964",
-    "MainGenre": "Adventure",
-    "SubGenre1": "Comedy",
+    "MainGenre": "Comedy",
+    "SubGenre1": "Adventure",
     "SubGenre2": "Drama",
     "Runtime": ""
   },
@@ -553,9 +553,9 @@
     "imdb": 8,
     "MetaCritic": 80,
     "TotalVotes": "569,347",
-    "MainGenre": "Adventure",
+    "MainGenre": "Sci-Fi",
     "SubGenre1": "Drama",
-    "SubGenre2": "Sci-Fi",
+    "SubGenre2": "Adventure",
     "Runtime": "144 min"
   },
   {
@@ -566,8 +566,8 @@
     "imdb": 7.6,
     "MetaCritic": 80,
     "TotalVotes": "257,67",
-    "MainGenre": "Adventure",
-    "SubGenre1": "Drama",
+    "MainGenre": "Drama",
+    "SubGenre1": "Adventure",
     "SubGenre2": "Western",
     "Runtime": "110 min"
   },
@@ -605,8 +605,8 @@
     "imdb": 8.1,
     "MetaCritic": 79,
     "TotalVotes": "649,474",
-    "MainGenre": "Crime",
-    "SubGenre1": "Drama",
+    "MainGenre": "Drama",
+    "SubGenre1": "Crime",
     "SubGenre2": "Mystery",
     "Runtime": "149 min"
   },
@@ -644,8 +644,8 @@
     "imdb": 7.8,
     "MetaCritic": 79,
     "TotalVotes": "40,577",
-    "MainGenre": "Biography",
-    "SubGenre1": "Comedy",
+    "MainGenre": "Comedy",
+    "SubGenre1": "Biography",
     "SubGenre2": "Drama",
     "Runtime": ""
   },
@@ -709,8 +709,8 @@
     "imdb": 7.8,
     "MetaCritic": 78,
     "TotalVotes": "467,642",
-    "MainGenre": "Crime",
-    "SubGenre1": "Drama",
+    "MainGenre": "Drama",
+    "SubGenre1": "Crime",
     "SubGenre2": "",
     "Runtime": "100 min"
   },
@@ -735,8 +735,8 @@
     "imdb": 7.6,
     "MetaCritic": 77,
     "TotalVotes": "81,855",
-    "MainGenre": "Biography",
-    "SubGenre1": "Drama",
+    "MainGenre": "Drama",
+    "SubGenre1": "Biography",
     "SubGenre2": "",
     "Runtime": "98 min"
   },
@@ -917,9 +917,9 @@
     "imdb": 8.6,
     "MetaCritic": 74,
     "TotalVotes": "1,075,163",
-    "MainGenre": "Adventure",
+    "MainGenre": "Sci-Fi",
     "SubGenre1": "Drama",
-    "SubGenre2": "Sci-Fi",
+    "SubGenre2": "Adventure",
     "Runtime": "169 min"
   },
   {
@@ -1034,9 +1034,9 @@
     "imdb": 7.7,
     "MetaCritic": 72,
     "TotalVotes": "305,145",
-    "MainGenre": "Biography",
+    "MainGenre": "Romance",
     "SubGenre1": "Drama",
-    "SubGenre2": "Romance",
+    "SubGenre2": "Biography",
     "Runtime": "123 min"
   },
   {
@@ -1359,9 +1359,9 @@
     "imdb": 7.8,
     "MetaCritic": 65,
     "TotalVotes": "556,713",
-    "MainGenre": "Action",
+    "MainGenre": "Sci-Fi",
     "SubGenre1": "Adventure",
-    "SubGenre2": "Sci-Fi",
+    "SubGenre2": "Action",
     "Runtime": "132 min"
   },
   {
@@ -1372,9 +1372,9 @@
     "imdb": 7.9,
     "MetaCritic": 65,
     "TotalVotes": "349,21",
-    "MainGenre": "Action",
+    "MainGenre": "Sci-Fi",
     "SubGenre1": "Adventure",
-    "SubGenre2": "Sci-Fi",
+    "SubGenre2": "Action",
     "Runtime": "133 min"
   },
   {
@@ -1532,5 +1532,83 @@
     "SubGenre1": "Fantasy",
     "SubGenre2": "",
     "Runtime": "169 min"
+  },
+  {
+    "ID": 119,
+    "Title": "Alien (1979)",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "MPAA": "R",
+    "imdb": 8.5,
+    "MetaCritic": 89,
+    "TotalVotes": "0,0",
+    "MainGenre": "Sci-Fi",
+    "SubGenre1": "Horror",
+    "SubGenre2": "",
+    "Runtime": "117 min"
+  },
+  {
+    "ID": 120,
+    "Title": "Psycho (1960)",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "MPAA": "R",
+    "imdb": 8.5,
+    "MetaCritic": 97,
+    "TotalVotes": "0,0",
+    "MainGenre": "Horror",
+    "SubGenre1": "Mystery",
+    "SubGenre2": "",
+    "Runtime": "109 min"
+  },
+  {
+    "ID": 121,
+    "Title": "The Shining (1980)",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "MPAA": "R",
+    "imdb": 8.4,
+    "MetaCritic": 66,
+    "TotalVotes": "0,0",
+    "MainGenre": "Horror",
+    "SubGenre1": "Drama",
+    "SubGenre2": "",
+    "Runtime": "117 min"
+  },
+  {
+    "ID": 122,
+    "Title": "Let the Right One In (2008)",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOWM4NTY2NTMtZDZlZS00NTgyLWEzZDMtODE3ZGI1MzI3ZmU5XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SX300.jpg",
+    "MPAA": "R",
+    "imdb": 7.9,
+    "MetaCritic": 82,
+    "TotalVotes": "0,0",
+    "MainGenre": "Horror",
+    "SubGenre1": "Drama",
+    "SubGenre2": "Romance",
+    "Runtime": "114 min"
+  },
+  {
+    "ID": 123,
+    "Title": "Shaun of the Dead (2004)",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTg5Mjk2NDMtZTk0Ny00YTQ0LWIzYWEtMWI5MGQ0Mjg1OTNkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "MPAA": "R",
+    "imdb": 7.9,
+    "MetaCritic": 76,
+    "TotalVotes": "0,0",
+    "MainGenre": "Horror",
+    "SubGenre1": "Comedy",
+    "SubGenre2": "",
+    "Runtime": "99 min"
+  },
+  {
+    "ID": 124,
+    "Title": "Before Sunset (2004)",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ1MjAwNTM5Ml5BMl5BanBnXkFtZTYwNDM0MTc3@._V1_SX300.jpg",
+    "MPAA": "R",
+    "imdb": 8.1,
+    "MetaCritic": 90,
+    "TotalVotes": "0,0",
+    "MainGenre": "Romance",
+    "SubGenre1": "Drama",
+    "SubGenre2": "",
+    "Runtime": "99 min"
   }
 ]

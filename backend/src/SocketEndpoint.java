@@ -35,7 +35,8 @@ public class SocketEndpoint extends WebSocketServer {
     @Override
     public void onMessage(WebSocket conn, String message) {
         MessageParser.parseParameters(message);
-        conn.send(Context.getResponseMessage());
+        if(Context.getResponseMessage() != null)
+            conn.send(Context.getResponseMessage());
     }
 
     @Override

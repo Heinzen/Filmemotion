@@ -25,6 +25,7 @@ function openWSConnection(protocol, hostname, port, endpoint) {
         webSocket = new WebSocket(webSocketURL);
         webSocket.onopen = function(openEvent) {
             console.log("WebSocket OPEN: " + JSON.stringify(openEvent, null, 4));
+            initUserData();
             initTopMovies();
         };
         webSocket.onclose = function (closeEvent) {

@@ -6,8 +6,10 @@
 }
 button{
 	width: 140px;
-    height: 45px;
-    color: #fff;
+	height: 45px;
+	display: block;
+	color: #fff;
+	background-color: #bbb8b8;
 	font-size: 11px;
     text-transform: uppercase;
     text-align: center;
@@ -71,12 +73,14 @@ button:link, button:visited {
 button.thar-one {
 	color: #000;
 	cursor: pointer;
+	margin-top: 15px;
+	bottom: 190px;
+	left: 250px;
 	position: relative;
-	border: 2px solid #F7CA18;
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 button.thar-one:enabled:hover {
-	color: #000 !important;
+	color: #fff !important;
 	background-color: transparent;
 	text-shadow: none;
 }

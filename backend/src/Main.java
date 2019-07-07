@@ -4,9 +4,11 @@ public class Main {
     }
 
     private static void init(){
+
         SocketEndpoint s = new SocketEndpoint(4444);
         s.start();
         new Context("resources/moviedata.json");
         new MovieFactory();
+        new EmotionEngine();
     }
 }

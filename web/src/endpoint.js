@@ -2,9 +2,9 @@ function processImage() {
     
     var APIkey = "029ae02d0838491786d77f9b91a836ef";
     var uriBase = "https://brazilsouth.api.cognitive.microsoft.com/face/v1.0/detect";
+        //"returnFaceId": "true",
+        //"returnFaceLandmarks": "false",
     var params = {
-        "returnFaceId": "true",
-        "returnFaceLandmarks": "false",
         "returnFaceAttributes":
             "age,gender,emotion",
         "recognitionModel": "recognition_02"
@@ -33,8 +33,9 @@ function processImage() {
     })
 
     .done(function(data) {
-        console.log(JSON.stringify(data));
-        $("#responseTextArea").val(JSON.stringify(data, null, 2));
+        //$("#responseTextArea").val(JSON.stringify(data, null, 2));
+        //alert(JSON.stringify(data,null,2)) ;
+        buildDataRequest(data);
     })
 
     .fail(function(jqXHR, textStatus, errorThrown) {

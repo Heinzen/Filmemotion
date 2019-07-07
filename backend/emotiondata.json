@@ -1,0 +1,29 @@
+{  
+   "request-type":"POST",
+   "parameter":"userEmotionData",
+   "value":[  
+      {  
+         "faceId":"625575b1-a262-47a0-8ecf-a9f1b63f2dab",
+         "faceRectangle":{  
+            "top":213,
+            "left":245,
+            "width":177,
+            "height":177
+         },
+         "faceAttributes":{  
+            "gender":"male",
+            "age":23,
+            "emotion":{  
+               "anger":0,
+               "contempt":0.002,
+               "disgust":0,
+               "fear":0,
+               "happiness":0,
+               "neutral":0.998,
+               "sadness":0,
+               "surprise":0
+            }
+         }
+      }
+   ]
+}

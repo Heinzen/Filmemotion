@@ -12,23 +12,20 @@
     <script src="src/posterhandler.js"></script>
     <script src="src/sockethandler.js"></script>
     <script src="src/transactionhandler.js"></script>
+    <script src="src/emotionhandler.js"></script>
+    <script src="src/recommendationhandler.js"></script>
+    <script src="src/moviecarrouselhandler.js"></script>
 </head>
 
 <body>
     <div class="mainContainer">
-        <div id="posterContainer" draggable="true" class="container">
-        </div>
         <div class="videoPlayer container">
             <video id="webcam" autoplay></video>
             <canvas id="canvas"></canvas>
-        </div>
-        <div class="control">
-            <button class="thar-one" id="btn_snap" >Capture</button>
+            <button class="thar-one" id="btn_snap">Capture</button>
             <button class="thar-one" id="btn_go" disabled>Process</button>
-            <button class="thar-one" id="btn_emotion">Parse Emotions</button>
-            <button class="thar-one" onclick="disconnectWebSocket()">Stop Websocket</button>
+            <button class="thar-one" id="btn_accept" disabled>Accept</button>
         </div>
-        <textarea id="responseTextArea" class="UIInput"
-                style="margin-top:50px; width:580px; height:400px;"></textarea>
+        <div class="contain"></div>
     </div>
 </body>
