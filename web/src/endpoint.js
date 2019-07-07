@@ -34,7 +34,7 @@ function processImage() {
 
     .done(function(data) {
         //$("#responseTextArea").val(JSON.stringify(data, null, 2));
-        //alert(JSON.stringify(data,null,2)) ;
+        alert(JSON.stringify(data,null,2)) ;
         buildDataRequest(data);
     })
 

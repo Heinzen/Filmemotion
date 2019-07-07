@@ -20,10 +20,12 @@ public class UserParser {
     private static String currentMoodKey;
     private static HashMap<Context.GENRE, Double> coefficientMap;
     private static String userData;
+    private static String userHistory;
     private static int dampeningFactor;
     private static boolean pg = false;
 
-    private static final String defaultJson = "resources/default_userdata.json";
+    private static final String defaultUserDataJson = "resources/default_userdata.json";
+    private static final String defaultUserHistoryJson = "resources/default_userhistory.json";
 
     public UserParser(String value, int d) {
         userId = Integer.valueOf(value);
@@ -31,6 +33,7 @@ public class UserParser {
         jsonPath = "resources/"+value;
         dampeningFactor = d;
         parseUserData();
+        parseUserHistory();
     }
 
     public static void parseUserData(){
@@ -44,11 +47,11 @@ public class UserParser {
             else {
                 new File(jsonPath).mkdir();
                 try {
-                    System.out.println(Files.exists(Paths.get(defaultJson)));
-                    Path sourceFile = Paths.get(defaultJson);
+                    System.out.println(Files.exists(Paths.get(defaultUserDataJson)));
+                    Path sourceFile = Paths.get(defaultUserDataJson);
                     Path destinationFolder = Paths.get(jsonPath);
 
-                    Files.lines(Paths.get(defaultJson), StandardCharsets.UTF_8).forEach(line -> {
+                    Files.lines(Paths.get(defaultUserDataJson), StandardCharsets.UTF_8).forEach(line -> {
                         userData+=line+"\n";
                     });
 
@@ -56,6 +59,33 @@ public class UserParser {
                     updateUserIdInFile();
                 } catch(IOException e) {
                     System.out.println("Failed to copy file: "+e);
+                }
+            }
+        } catch(Exception e){
+            System.out.println("Failed to open file: "+e);
+        }
+    }
+    private static void parseUserHistory() {
+        userHistory = "";
+        try {
+            if (Files.exists(Paths.get(jsonPath+"/userhistory.json"), LinkOption.NOFOLLOW_LINKS)) {
+                Files.lines(Paths.get(jsonPath + "/userhistory.json"), StandardCharsets.UTF_8).forEach(line -> {
+                    userHistory += line + "\n";
+                });
+            } else {
+                new File(jsonPath).mkdir();
+                try {
+                    System.out.println(Files.exists(Paths.get(defaultUserHistoryJson)));
+                    Path sourceFile = Paths.get(defaultUserHistoryJson);
+                    Path destinationFolder = Paths.get(jsonPath);
+
+                    Files.lines(Paths.get(defaultUserHistoryJson), StandardCharsets.UTF_8).forEach(line -> {
+                        userHistory += line + "\n";
+                    });
+
+                    Files.copy(sourceFile, destinationFolder.resolve("userhistory.json"), StandardCopyOption.REPLACE_EXISTING);
+                } catch (IOException e) {
+                    System.out.println("Failed to copy file: " + e);
                 }
             }
         } catch(Exception e){
@@ -153,8 +183,6 @@ public class UserParser {
             f.write("");
             f.write(allEntries.toString(4));
             f.close();
-
-
         }catch(Exception e){}
     }
     private static boolean isColdStart(){
@@ -167,11 +195,11 @@ public class UserParser {
     public static void getGenreForAcceptance(int acceptedMovieId){
         Context.GENRE g;
         Movie m = Context.getMovieById(acceptedMovieId);
-        if(m != null){
+        if(m != null) {
             g = Context.GENRE.valueOf(m.getGenre()[0].toUpperCase());
             updateContentWeight(g);
-            System.out.println("Accepting genre: "+g.toString());
         }
+        saveMovieIntoHistory(acceptedMovieId);
     }
     private static void updateContentWeight(Context.GENRE g){
         for(Map.Entry<Context.GENRE, Double> it : coefficientMap.entrySet()){
@@ -181,6 +209,17 @@ public class UserParser {
         acceptGenre(g.toString());
 
         updateJsonRecord();
+    }
+    public static boolean checkIfMovieIsInHistory(int id){
+        try {
+            JSONObject obj = new JSONObject(userHistory);
+            JSONArray array = obj.getJSONArray("watched");
+            for(int i = 0; i < array.length(); i++){
+                if(array.getInt(i) == id)
+                    return true;
+            }
+        } catch(Exception e) { System.out.println(e); }
+        return false;
     }
     public static void selectContent(int top, int bottom){
         HashMap<Context.GENRE, Double> aux;
@@ -197,12 +236,23 @@ public class UserParser {
             if(e.getValue() > 0.5){
                 System.out.println("Including "+top+" "+e.getKey().toString()+" movies");
                 for(int i = 0; i < top; i++){
-                    outputList.add(Context.getTopMovieByIndex(e.getKey(), i));
+                    Movie auxMovie = Context.getTopMovieByIndex(e.getKey(), i);
+                    if(checkIfMovieIsInHistory(auxMovie.getId())){
+                        top++;
+                    } else {
+                        outputList.add(auxMovie);
+                    }
+
                 }
             } else if(e.getValue() > 0.1 && e.getValue() <= 0.5){
                 System.out.println("Including "+bottom+" "+e.getKey().toString()+" movies");
                 for(int i = 0; i < bottom; i++){
-                    outputList.add(Context.getTopMovieByIndex(e.getKey(), i));
+                    Movie auxMovie = Context.getTopMovieByIndex(e.getKey(), i);
+                    if(checkIfMovieIsInHistory(auxMovie.getId())){
+                        bottom++;
+                    } else {
+                        outputList.add(auxMovie);
+                    }
                 }
             }
         }
@@ -225,5 +275,19 @@ public class UserParser {
             }
         } catch(Exception e){ System.out.println(e); }
         Context.setResponseMessage(output.toString());
+    }
+    public static void saveMovieIntoHistory(int id){
+        try {
+            JSONObject obj = new JSONObject(userHistory);
+            JSONArray array = obj.getJSONArray("watched");
+
+            array.put(id);
+            obj.put("watched", array);
+
+            FileWriter f = new FileWriter(jsonPath+"/userhistory.json");
+            f.write("");
+            f.write(obj.toString(4));
+            f.close();
+        }catch(Exception e){ System.out.println(e); }
     }
 }

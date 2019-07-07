@@ -5,6 +5,7 @@
       <w>recommendedmovies</w>
       <w>tokener</w>
       <w>userdata</w>
+      <w>userhistory</w>
     </words>
   </dictionary>
 </component>
