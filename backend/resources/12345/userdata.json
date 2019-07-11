@@ -40,14 +40,14 @@
         "THRILLER": 1
     },
     "HAPPINESS": {
-        "DRAMA": 1,
-        "SCIFI": 1,
-        "THRILLER": 1,
+        "ACTION": 1,
         "ANIMATION": 1,
         "COMEDY": 1,
+        "DRAMA": 1,
+        "HORROR": 1,
         "ROMANCE": 1,
-        "ACTION": 1,
-        "HORROR": 1
+        "SCIFI": 1,
+        "THRILLER": 1
     },
     "SADNESS": {
         "ACTION": 1,

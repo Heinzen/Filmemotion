@@ -184,28 +184,28 @@ public class EmotionEngine {
 
                     default:
                         if(g == Context.GENRE.ACTION){
-                            auxMap.put(Context.GENRE.ACTION,0.00);
+                            auxMap.put(Context.GENRE.ACTION,1.00);
                         }
                         else if(g == Context.GENRE.DRAMA){
-                            auxMap.put(Context.GENRE.DRAMA,0.00);
+                            auxMap.put(Context.GENRE.DRAMA,1.00);
                         }
                         else if(g == Context.GENRE.COMEDY){
-                            auxMap.put(Context.GENRE.COMEDY,0.00);
+                            auxMap.put(Context.GENRE.COMEDY,1.00);
                         }
                         else if(g == Context.GENRE.ROMANCE){
-                            auxMap.put(Context.GENRE.ROMANCE,0.00);
+                            auxMap.put(Context.GENRE.ROMANCE,1.00);
                         }
                         else if(g == Context.GENRE.HORROR){
-                            auxMap.put(Context.GENRE.HORROR,0.00);
+                            auxMap.put(Context.GENRE.HORROR,1.00);
                         }
                         else if(g == Context.GENRE.THRILLER){
-                            auxMap.put(Context.GENRE.THRILLER,0.00);
+                            auxMap.put(Context.GENRE.THRILLER,1.00);
                         }
                         else if(g == Context.GENRE.ANIMATION){
-                            auxMap.put(Context.GENRE.ANIMATION,0.00);
+                            auxMap.put(Context.GENRE.ANIMATION,1.00);
                         }
                         else if(g == Context.GENRE.SCIFI){
-                            auxMap.put(Context.GENRE.SCIFI,0.00);
+                            auxMap.put(Context.GENRE.SCIFI,1.00);
                         }
                         break;
                 }

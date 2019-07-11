@@ -1,7 +1,8 @@
 function processImage() {
     
-    var APIkey = "029ae02d0838491786d77f9b91a836ef";
-    var uriBase = "https://brazilsouth.api.cognitive.microsoft.com/face/v1.0/detect";
+    //To make this work, include an API Key and API Endpoint in the two variables below, otherwise it won't be able to parse emotion data.
+    var APIkey = "";
+    var uriBase = "";
         //"returnFaceId": "true",
         //"returnFaceLandmarks": "false",
     var params = {
